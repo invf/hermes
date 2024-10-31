@@ -40,7 +40,7 @@ export default function Navbar() {
             About
           </Link>
           <Link href='#tokenomics' className='hidden md:block flex-1'>
-            Tokenomics
+            Strategy
           </Link>
           <Link href='#partners' className='hidden md:block flex-1'>
             Partners
@@ -67,7 +67,7 @@ export default function Navbar() {
           <div className='md:hidden'>
             <div className='absolute inset-x-0 flex flex-col space-y-2 bg-white/95 backdrop-blur-lg text-xs px-4 pb-4'>
               <Link href='#about'>About</Link>
-              <Link href='#tokenomics'>Tokenomics</Link>
+              <Link href='#tokenomics'>Strategy</Link>
               <Link href='#partners'>Partners</Link>
               <Link href='#socials'>Socials</Link>
               <Link href={CONTRACT.telegram} target='_blank'>

@@ -54,7 +54,7 @@ export default function Hero() {
           <CopyButton value={`${process.env.NEXT_PUBLIC_CA}`} />
         </div>
         <Link href='#' target='_blank'>
-          <p className='text-xl lg:text-2xl text-zinc-900 underline'>AUDIT</p>
+          <p className='text-xl lg:text-2xl text-zinc-900 underline'>API</p>
         </Link>
       </div>
     </AnimatedSection>
